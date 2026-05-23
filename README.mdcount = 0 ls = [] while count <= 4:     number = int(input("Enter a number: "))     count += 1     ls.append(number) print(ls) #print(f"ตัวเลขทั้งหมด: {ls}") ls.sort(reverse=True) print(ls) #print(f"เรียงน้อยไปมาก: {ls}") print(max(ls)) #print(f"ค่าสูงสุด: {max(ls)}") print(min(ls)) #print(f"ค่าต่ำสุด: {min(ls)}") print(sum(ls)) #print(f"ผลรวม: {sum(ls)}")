@@ -1,0 +1,13 @@
+count = 0
+ls = []
+while count <= 4:
+    number = int(input("Enter a number: "))
+    count += 1
+    ls.append(number)
+print(ls) #print(f"ตัวเลขทั้งหมด: {ls}")
+ls.sort(reverse=True)
+print(ls) #print(f"เรียงน้อยไปมาก: {ls}")
+print(max(ls)) #print(f"ค่าสูงสุด: {max(ls)}")
+print(min(ls)) #print(f"ค่าต่ำสุด: {min(ls)}")
+print(sum(ls)) #print(f"ผลรวม: {sum(ls)}")
+
